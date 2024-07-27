@@ -1,0 +1,163 @@
+/* Estiliza o título h1 */
+h1 {
+    /* Alinha o texto ao centro */
+    text-align: justify;
+    /* Define a família de fontes como Arial, Helvetica ou sans-serif */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*estilizando h2*/
+h2 {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estiliza os parágrafos */
+p {
+    /* Alinha o texto ao centro */
+    text-align: justify;
+    /* Define a família de fontes como Arial, Helvetica ou sans-serif */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    /* Define a altura da linha como 1.6 vezes a altura da fonte */
+    line-height: 1.9;
+}
+
+/* Estiliza o corpo da página */
+body {
+    /* Remove a margem padrão do corpo da página */
+    margin: 0;
+    /* Define a cor de fundo como #9BCCFA */
+    background-color: #9BCCFA;
+}
+
+/* Estiliza o cabeçalho */
+header {
+    /* Fixa o cabeçalho no topo da página */
+    position: relative;
+    top: 0;
+    /* Define a cor de fundo como #124889 */
+    background-color: #124889;
+    /* Define a cor do texto como branco */
+    color: #fff;
+    /* Remove a margem e o padding padrão do cabeçalho */
+    padding: 0;
+    margin: 0;
+    /* Define a largura do cabeçalho como 100% da página */
+    width: 100%;
+    /* Alinha o texto ao centro */
+    text-align: center;
+    /* Define a altura do cabeçalho como 10% da página */
+    height: 10%;
+    /* Adiciona uma transição de transformação para o cabeçalho */
+    transform: translateY(0); 
+    transition: transform 0.5s; 
+}
+
+/* Estiliza o conteúdo principal */
+main {
+    /* Adiciona um padding superior para que o conteúdo não seja sobreposto pelo cabeçalho */
+    padding-top: 100px; 
+}
+
+
+/* Estiliza os botões */
+button {
+    /* Exibe os botões como blocos inline */
+    display: inline-block; 
+    /* Adiciona uma margem de 10px em torno dos botões */
+    margin: 10px; 
+    /* Adiciona um padding de 10px em torno dos botões */
+    padding: 10px 20px; 
+    /* Define a cor do texto como preto */
+    color: #000;
+    /* Remove a borda padrão dos botões */
+    border: none;
+    /* Define a borda como um círculo */
+    border-radius: 50px;
+    /* Define a cor de fundo como transparente */
+    background-color: transparent;
+    /* Define o tamanho da fonte como 16px */
+    font-size: 16px;
+    /* Define o cursor como um ponteiro */
+    cursor: pointer;
+    /* Adiciona uma transição de cor para os botões */
+    transition: color 0.3s ease;
+}
+
+/* Estiliza os botões ao passar o mouse sobre eles */
+button:hover {
+    /* Muda a cor do texto para branco */
+    color: #fff;
+}
+
+/* Estiliza o container de botões */
+.button-container {
+    /* Exibe o container como um flexbox */
+    display: flex;
+    /* Alinha os botões ao centro */
+    justify-content: center; 
+    /* Adiciona uma margem de 20px em torno do container */
+    margin: 30px; 
+}
+
+/* Estiliza os botões dentro do container */
+.button-container button {
+    /* Adiciona uma margem de 10px em torno dos botões */
+    margin: 10px; 
+    /* Adiciona um padding de 10px em torno dos botões */
+    padding: 10px 20px;
+}
+
+/* Estiliza os botões de texto */
+.text-button {
+    /* Define a cor do texto como preto */
+    color: #000;
+}
+
+/* Estiliza o conteúdo 01 */
+.Conteudo01 {
+    /* Alinha o texto ao centro */
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    /* Define a família de fontes como Arial, Helvetica ou sans-serif */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Define o tamanho da fonte como 14px */
+    font-size: 40px;
+}
+
+/* Estiliza o conteúdo 02 */
+.Conteudo02 {
+    /* Alinha o texto ao centro */
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    /* Define a família de fontes como Arial, Helvetica ou sans-serif */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Define o tamanho da fonte como 14px */
+    font-size: 40px;
+}
+
+.back-to-top {
+    position: fixed; /* Alterei de absolute para fixed para que o botão fique fixo na tela */
+    bottom: 20px; /* Posiciona o botão 20px do fundo da tela */
+    right: 20px; /* Posiciona o botão 20px da borda direita da tela */
+    width: 50px; /* Aumentei o tamanho do botão para que o símbolo fique mais visível */
+    height: 50px; /* Aumentei o tamanho do botão para que o símbolo fique mais visível */
+    background-color: #fff;
+    border-radius: 50%; /* Alterei para 50% para que o botão seja um círculo perfeito */
+    display: flex; /* Adicionei display flex para centralizar o conteúdo */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    cursor: pointer; /* Adicionei cursor pointer para que o botão tenha um cursor de ponteiro */
+}
+  /* Adicione uma animação para quando o usuário clica no botão */
+  .back-to-top:hover {
+    background-color: #000000;
+  }
